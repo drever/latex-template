@@ -1246,7 +1246,7 @@
 
   \ifaccepted
   \newsavebox\@compositionalityacceptedbox
-  \newcommand {\logo} {\raisebox{-0.25cm}[0.1cm]{\includegraphics[width=0.8cm, height=0.8cm]{logo}}}
+  \newcommand {\logo} {\raisebox{-0.25cm}[0.1cm]{\includegraphics[ height=0.8cm]{logo}}}
 %\newcommand{\here}{ \href{http://www.compositionality-journal.org/\@shorttitle/}{here}}
 \newcommand{\here}{ \url{http://www.compositionality-journal.org/\@shorttitle/}}
   \savebox\@compositionalityacceptedbox   {\sffamily\scriptsize \logo \textcolor{mutedcoral}{ Accepted in Compositionality on \ifcsdef{@accepteddate}{\@accepteddate}{}. Click 
